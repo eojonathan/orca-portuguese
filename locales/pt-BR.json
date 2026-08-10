@@ -1725,7 +1725,7 @@
             "95af781091": "Enviar feedback para um agente",
             "9f6f2e8c19": "O caminho do arquivo baixado não está disponível.",
             "a2164a6e5a": "{{value0}} anotações prontas. Selecione outro elemento ou copie todo o feedback.",
-            "a3508d7e6e": "{{value0}} anotação{{value1}} pronta{{value1}}. Selecione outro elemento ou copie todo o feedback.",
+            "a3508d7e6e": "Anotação {{value0}}{{value1}} pronta. Selecione outro elemento ou copie todos os comentários.",
             "a5dcd0fd1d": "confirmando",
             "a8f37f70c3": "Inspecionar página",
             "ac39b9366b": "Enviar",
@@ -8468,7 +8468,7 @@
           "f1fc50dad2": "Falha ao carregar os destinos SSH",
           "f495689b82": "Falha ao importar",
           "f602009125": "Destino adicionado",
-          "f8050f6307": "{{value0}} servidor{{value1}} sincronizado{{value1}}"
+          "f8050f6307": "Servidor {{value0}} sincronizado{{value1}}"
         },
         "SshPassphraseDialog": {
           "106bd57f4a": "Senha SSH",
@@ -9955,7 +9955,7 @@
               "3df81cb0ac": "ok",
               "5936977fcd": "Cancelar",
               "5fb1562315": "erro",
-              "74f3063026": "{{value0}} site{{value1}} conectado{{value1}}",
+              "74f3063026": "Site {{value0}}{{value1}} conectado",
               "8ff73fef62": "Os tokens do Jira são criptografados pelo runtime ativo e armazenados localmente. Inserir novamente a mesma URL do site e o mesmo e-mail substitui o token de API daquele site.",
               "9046a20d4c": "Desconectar {{value0}}",
               "9a9f8d4910": "Conecte o Jira Cloud para navegar, criar e vincular issues.",
@@ -12782,14 +12782,14 @@
             "ca41be2802": "Portas — {{value0}} workspace {{value1}}{{value2}}"
           },
           "RemoteServerUpdateStatusSegment": {
-            "failed": "Atualizações do servidor remoto do Orca em andamento",
+            "failed": "Falha nas atualizações do servidor {{value0}}",
             "failedOne": "Atualizações do servidor remoto do Orca concluídas",
-            "failedTooltip": "{{value0}} atualizações de servidor falharam",
-            "updated": "Abrir atualizações do servidor remoto do Orca para revisar e tentar novamente",
+            "failedTooltip": "Abra as atualizações do Remote Orca Server para revisar e tentar novamente",
+            "updated": "Servidores {{value0}} atualizados",
             "updatedOne": "1 atualização de servidor falhou",
-            "updatedTooltip": "{{value0}} servidores atualizados",
-            "updating": "Detalhe do rodapé de uso",
-            "updatingTooltip": "Atualizando {{value0}}/{{value1}}"
+            "updatedTooltip": "Atualizações remotas do servidor Orca concluídas",
+            "updating": "Atualizando {{value0}}/{{value1}}",
+            "updatingTooltip": "As atualizações do servidor Orca remoto estão em andamento"
           },
           "ResourceUsageStatusSegment": {
             "0f9e50eb07": "Outro",
@@ -12974,7 +12974,7 @@
             "dismiss": "Prefere ver o restante? Altere isso em Configurações.",
             "gotIt": "Abrir Configurações",
             "openSettings": "Dispensar",
-            "title": "{{value0}}% restante"
+            "title": "O uso agora mostra a porcentagem usada"
           },
           "UsageRosterPanel": {
             "allAgents": "não conectado",
@@ -13017,7 +13017,7 @@
             "0bc756efaf": "Alterações do Git",
             "0cb1501ccf": "recuperável",
             "0d1c78d749": "{{value0}} aberto",
-            "131662ac65": "Nenhum item de nível superior para mostrar.",
+            "131662ac65": "{{value0}} aberto",
             "16988df079": "Nenhum arquivo encontrado.",
             "1cc6cd4c0f": "workspaces",
             "1d0f8300d1": "Selecionar workspaces visíveis que podem ser excluídos",
@@ -13087,13 +13087,13 @@
             "status": {
               "popover": {
                 "rows": {
-                  "085f4f0334": "Copiar {{value0}}",
+                  "085f4f0334": "Abrir no navegador",
                   "0e72c8d9fb": "Workspace indisponível",
                   "480d8f2347": "Processo parado em {{value0}}",
-                  "536d48a5dc": "Parar processo",
-                  "a49ea79246": "Selecionar {{value0}}",
-                  "acdb6df590": "Falha ao atualizar portas",
-                  "b854ec9ff5": "{{value0}} copiado",
+                  "536d48a5dc": "Copiar {{value0}}",
+                  "a49ea79246": "Vá para a árvore de trabalho",
+                  "acdb6df590": "Processo interrompido em {{value0}}",
+                  "b854ec9ff5": "Falha ao abrir o navegador",
                   "e4a709548c": "Abrir no navegador",
                   "f2b813345f": "Ir para o worktree"
                 }
@@ -13124,7 +13124,7 @@
             }
           },
           "tooltip": {
-            "0d8d7cfe15": "Expires in {{value0}}",
+            "0d8d7cfe15": "Esperando pela sessão do Claude",
             "1292d4f2ee": "Não foi possível obter o uso",
             "1804cd8c3f": "Waiting for Claude session",
             "20ad66aed1": "Next expires in {{value0}}",
@@ -13132,20 +13132,20 @@
             "2c35eca8d4": "Sessão",
             "3d3c9c0c1f": "Usage unavailable",
             "42fdd4da1d": "Claude usage will refresh after the live Claude terminal rotates its credentials.",
-            "45198c7d95": "{{value0}} usage could not be refreshed. Agent sessions may still be signed in.",
-            "6cf9eaed10": "Expires now",
+            "45198c7d95": "1 redefinição de limite de taxa disponível",
+            "6cf9eaed10": "O próximo expira em {{value0}}",
             "6d6df77f41": "% usado",
             "7567cd1c6b": "Indisponível",
             "7ad719c4bf": "Falha ao atualizar — mostrando dados em cache",
-            "7ec6e030a0": "{{value0}} rate-limit resets available",
+            "7ec6e030a0": "Próximo expira agora",
             "7f7f208060": "Nenhum dado disponível",
-            "8418ec448d": "Falha ao atualizar",
+            "8418ec448d": "O uso de {{value0}} não pôde ser atualizado. As sessões do agente ainda podem estar conectadas.",
             "94038ad2fa": "Fable",
             "a37e8c15d4": "Run Kimi to refresh",
             "a7517cccb6": "Claude sign-in credentials could not be read.",
             "a79c64f87e": "Semanal",
             "a9a318b7a3": "Uso indisponível",
-            "bce421cba3": "1 rate-limit reset available",
+            "bce421cba3": "Redefinições de limite de taxa {{value0}} disponíveis",
             "bf2e739f18": "Network issue",
             "c06c1d215d": "Claude sign-in is being refreshed. Agent sessions may still be signed in.",
             "cabdc2a9e0": "Claude usage could not be refreshed because the network request failed.",
@@ -13160,7 +13160,7 @@
           },
           "usagePercentageLabel": {
             "remaining": "{{value0}}% usado",
-            "used": "Host SSH"
+            "used": "{{value0}}% usado"
           },
           "CaffeinateStatusSegment": {
             "on": "Sobre",
@@ -13753,7 +13753,7 @@
             "0b1766738a": "Repo",
             "0c6672f5e3": "Sugestões de limpeza ignoradas",
             "0e2d235c63": "Verificação de workspaces inativos concluída",
-            "0f00612b6d": "{{value0}} workspace{{value1}} removido{{value1}}",
+            "0f00612b6d": "Espaço de trabalho {{value0}} removido{{value1}}",
             "191f0bc98e": "Fechar",
             "1b18868569": "precisa de revisão",
             "1bffc07ba7": "Ver {{value0}}",

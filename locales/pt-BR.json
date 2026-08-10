@@ -10952,6 +10952,50 @@
           "on": "Sobre",
           "auto": "Auto",
           "off": "Desligado"
+        },
+        "PluginsSettingsSection": {
+          "title": "Plug-ins",
+          "systemLabel": "Sistema de plug-ins",
+          "install": "Instalar plug-in",
+          "loading": "Carregando plug-ins…",
+          "empty": "Navegue na guia Todos para instalar plug-ins de um mercado.",
+          "emptyTitle": "Nenhum plug-in instalado ainda",
+          "noInstalledResults": "Nenhum plug-in instalado corresponde a esta pesquisa.",
+          "noInstalledResultsTitle": "Nenhum plug-in correspondente"
+        },
+        "PluginMarketplaceBrowser": {
+          "manageSources": "Gerenciar fontes",
+          "addSource": "Adicionar mercado",
+          "refresh": "Atualizar",
+          "refreshing": "Refrescante…",
+          "loading": "Carregando plug-ins do mercado…",
+          "tryAgain": "Tente novamente",
+          "clearSearch": "Limpar pesquisa",
+          "empty": "Os marketplaces configurados não listam nenhum plugin.",
+          "emptyTitle": "Nada listado ainda",
+          "noInstalled": "Os plug-ins que você instala aparecem aqui.",
+          "noInstalledTitle": "Nenhum plug-in instalado",
+          "noResults": "Nenhum plug-in do Marketplace corresponde a esta pesquisa.",
+          "noResultsTitle": "Nenhum plug-in correspondente",
+          "noSourcesTitle": "Nenhum mercado configurado"
+        },
+        "PluginDevelopmentSection": {
+          "title": "Desenvolvimento",
+          "add": "Adicionar caminho",
+          "remove": "Remover",
+          "pathLabel": "Caminho da pasta do plugin de desenvolvimento",
+          "pathRequired": "Insira um caminho para a pasta do plugin.",
+          "placeholder": "/Users/you/plugins/my-plugin ou C:\\Users\\you\\plugins\\my-plugin"
+        },
+        "plugins": {
+          "search": {
+            "title": "Plug-ins",
+            "description": "Instale e gerencie plug-ins experimentais do Orca.",
+            "install": "instalar plug-in",
+            "permissions": "permissões de plug-in",
+            "logs": "registros de plug-ins",
+            "development": "plug-ins de desenvolvimento"
+          }
         }
       },
       "setup": {

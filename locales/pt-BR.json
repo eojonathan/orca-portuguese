@@ -5241,7 +5241,9 @@
           "49f62c5665": "Painel de workspaces",
           "5c9c7c16aa": "Adicione um projeto para criar workspaces",
           "ca6f729da2": "Novo workspace ({{value0}})",
-          "a30e34eb5c": "Fechar painel de workspaces"
+          "a30e34eb5c": "Fechar painel de workspaces",
+          "projects": "Projetos",
+          "workspaces": "Workspaces"
         },
         "SidebarNav": {
           "80611a8b10": "Buscar",
@@ -5285,7 +5287,7 @@
           "4e8f5710d3": "Não foi possível reiniciar o Orca.",
           "5161eef55d": "Reiniciando o Orca…",
           "d396773ef0": "verificando",
-          "f8a2c91d4e": "Marcos",
+          "f8a2c91d4e": "Checklist",
           "b7e4d2a19c": "Integração inicial",
           "c4f8e1b72a": "X"
         },
@@ -10387,9 +10389,9 @@
           "e5995ce268": "Manter o computador ativo enquanto os agentes trabalham",
           "95d3031db2": "Mantém este computador e a tela ativos enquanto os agentes trabalham. O comportamento ao fechar a tampa segue as configurações de energia deste dispositivo.",
           "a42f6fbdd8": "Mantém este computador e a tela ativos enquanto os agentes trabalham. O Orca também solicita que este dispositivo permaneça ativo com a tampa fechada, respeitando a política de energia dele.",
-          "modeTitle": "Mantenha o computador acordado",
-          "modeDescriptionWindows": "Escolha Ativado, Automático enquanto os agentes estão trabalhando ou Desativado. O comportamento de fechamento da tampa segue as configurações de energia deste dispositivo.",
-          "modeDescriptionDefault": "Escolha Ativado, Automático enquanto os agentes estão trabalhando ou Desativado. A Orca também pede que este dispositivo fique acordado quando a tampa estiver fechada, sujeito à sua política de energia."
+          "modeTitle": "Manter o computador ativo",
+          "modeDescriptionWindows": "Escolha Ativado, Automático enquanto os agentes trabalham ou Desativado. O comportamento ao fechar a tampa segue as configurações de energia deste dispositivo.",
+          "modeDescriptionDefault": "Escolha Ativado, Automático enquanto os agentes trabalham ou Desativado. O Orca também solicita que este dispositivo permaneça ativo quando a tampa estiver fechada, respeitando a política de energia dele."
         },
         "agent-status-hooks-copy": {
           "7707c15abb": "Hooks de status do agente",
@@ -11208,9 +11210,9 @@
           "description": "Agende o trabalho do agente e escolha se as automações aparecem na barra lateral."
         },
         "AgentAwakeSetting": {
-          "on": "Sobre",
-          "auto": "Auto",
-          "off": "Desligado"
+          "on": "Ativado",
+          "auto": "Automático",
+          "off": "Desativado"
         },
         "shareSkills": {
           "title": "Share Skills",
@@ -13530,7 +13532,7 @@
           },
           "FeatureWallSetupChecklist": {
             "1a6a7d6c80": "Configuração",
-            "713cc529a5": "Marcos",
+            "713cc529a5": "Checklist",
             "b1f1981c5e": "Ver tarefas",
             "0235b268b2": "Ainda não concluído",
             "13294d3405": "Concluído"

@@ -708,11 +708,11 @@
             "childSequenceSummary": "Use agentes filhos em sequência quando cada fase depende da anterior.",
             "childParallelSummary": "Divida tarefas de investigação ou implementação que não se sobrepõem entre agentes filhos.",
             "prSplitSummary": "Dê a cada agente filho seu próprio worktree para que a implementação paralela continue revisável.",
-            "handoffPrompt": "Use {{value0}} para repassar esta tarefa de configurações de faturamento para o agente Claude ocioso. Inclua o objetivo, o contexto atual e o que deve ser finalizado a seguir.",
-            "worktreeHandoffPrompt": "Use {{value0}} para repassar esta limpeza de configurações para o agente no worktree settings-polish. Envie o objetivo, os arquivos relevantes e o resultado esperado.",
-            "childSequencePrompt": "Use {{value0}} para executar esta refatoração de autenticação em fases: planejamento, backend, interface e testes. Inicie cada agente filho após a conclusão da fase anterior.",
-            "childParallelPrompt": "Use {{value0}} para dividir esta refatoração de autenticação entre agentes filhos paralelos: contrato da API, chamadas no backend, fluxo de interface e lacunas de teste.",
-            "prSplitPrompt": "Use {{value0}} para dividir esta atualização de onboarding em PRs menores, cada uma em seu próprio worktree filho: estado de configuração, interface de configurações, textos e testes."
+            "handoffPrompt": "Use {{orchestrationCommand}} para repassar esta tarefa de configurações de faturamento para o agente Claude ocioso. Inclua o objetivo, o contexto atual e o que deve ser finalizado a seguir.",
+            "worktreeHandoffPrompt": "Use {{orchestrationCommand}} para repassar esta limpeza de configurações para o agente no worktree settings-polish. Envie o objetivo, os arquivos relevantes e o resultado esperado.",
+            "childSequencePrompt": "Use {{orchestrationCommand}} para executar esta refatoração de autenticação em fases: planejamento, backend, interface e testes. Inicie cada agente filho após a conclusão da fase anterior.",
+            "childParallelPrompt": "Use {{orchestrationCommand}} para dividir esta refatoração de autenticação entre agentes filhos paralelos: contrato da API, chamadas no backend, fluxo de interface e lacunas de teste.",
+            "prSplitPrompt": "Use {{orchestrationCommand}} para dividir esta atualização de onboarding em PRs menores, cada uma em seu próprio worktree filho: estado de configuração, interface de configurações, textos e testes."
           }
         }
       },
